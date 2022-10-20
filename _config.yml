@@ -1,0 +1,45 @@
+version:          "0001--21-Oct-2022"
+copyright:        "2022-2022"
+title:            "Ternate"
+author:           "Abdul Latip"
+address:          "Ternate"
+description:
+  This is a
+  Ternate.
+  See also tagline.
+disclaimer:
+  I have spoken.
+tagline:          "This is Ternate"
+keywords:         "jekyll, testing"
+navbarlinks:
+- navbar:         "Home"
+  link:           "/"
+- navbar:         "Links"
+  link:           "/LINKS/"
+- navbar:         "GitHub"
+  link:           "https://github.com/abusass/test/"
+- navbar:         "Listing"
+  link:           "/000.html"
+- navbar:         "About"
+  link:           "/ABOUT/"
+- navbar:         "GitHub Page"
+  link:           "https://abusass.github.io/test/"
+lang:             "en-US"
+sitemap:          "true"
+markdown:         "kramdown"
+urlweb:           "https://abusass.github.io/test/"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/abusass/test/"
+google_analytics: "G-KPSLWHN6H7"
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-paginate
+defaults:
+- scope:
+    path:    ""
+  values:
+    layout:  "default"
+github:
+- metadata
+
