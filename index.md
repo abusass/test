@@ -7,6 +7,25 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size:10vw;
+}
+h2 {
+  font-size:8vw;
+}  
+h3 {
+  font-size:6vw;
+}
+h4 {
+  font-size:4vw;
+}
+h5 {
+  font-size:2vw;
+}
+p {
+  font-size:1vw;
+}   
+  
 .left {
   background-color: #2196F3;
   padding: 20px;
@@ -28,6 +47,8 @@
   width: 20%; /* The width is 20%, by default */
 }
 
+  
+  
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 800px) {
   .left, .main, .right {
