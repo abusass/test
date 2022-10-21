@@ -24,6 +24,7 @@ h5 {
 }
 p {
   font-size:1vw;
+  background-color: #f1f1f1;
 }   
   
 .left {
