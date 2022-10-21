@@ -8,23 +8,22 @@
 }
 
 h1 {
-  font-size:10vw;
+  font-size:20vw;
 }
 h2 {
-  font-size:8vw;
+  font-size:16vw;
 }  
 h3 {
-  font-size:6vw;
+  font-size:12vw;
 }
 h4 {
-  font-size:4vw;
+  font-size:8vw;
 }
 h5 {
-  font-size:2vw;
+  font-size:4vw;
 }
 p {
-  font-size:1vw;
-  background-color: #f1f1f1;
+  font-size:2vw;
 }   
   
 .left {
