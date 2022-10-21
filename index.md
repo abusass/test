@@ -127,12 +127,6 @@ function makeNormal() {
 } 
 </script>
 
-<p>Count numbers: <output id="result"></output></p>
-<button onclick="startWorker()">Start Worker</button> 
-<button onclick="stopWorker()">Stop Worker</button>
-
-<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
-
 <script>
 var w;
 
@@ -154,7 +148,15 @@ function stopWorker() {
   w = undefined;
 }
 </script>
+    
   
+<div>
+<p>Count numbers: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button> 
+<button onclick="stopWorker()">Stop Worker</button>
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+</div>
   
 </body>
 </html>
