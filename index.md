@@ -85,6 +85,12 @@ p {
 <p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
 
 <p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+<picture>
+  <source media="(min-width: 600px)" srcset="img1.jpg">
+  <source media="(min-width: 400px)" srcset="img2.jpg">
+  <img src="img3.jpg" style="width:auto;">
+</picture>
   
 </body>
 </html>
