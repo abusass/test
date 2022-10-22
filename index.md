@@ -104,11 +104,6 @@ p {
   </video>
 </div> 
 
-
-
-
-    
-  
 <div>
 <p>Count numbers: <output id="result"></output></p>
 <button onclick="startWorker()">Start Worker</button> 
