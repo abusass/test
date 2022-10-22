@@ -104,50 +104,9 @@ p {
   </video>
 </div> 
 
-<script> 
-var myVideo = document.getElementById("video1"); 
 
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
 
-function makeBig() { 
-    myVideo.width = 560; 
-} 
 
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
-</script>
-
-<script>
-var w;
-
-function startWorker() {
-  if(typeof(Worker) !== "undefined") {
-    if(typeof(w) == "undefined") {
-      w = new Worker("demo_workers.js");
-    }
-    w.onmessage = function(event) {
-      document.getElementById("result").innerHTML = event.data;
-    };
-  } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
-  }
-}
-
-function stopWorker() { 
-  w.terminate();
-  w = undefined;
-}
-</script>
     
   
 <div>
