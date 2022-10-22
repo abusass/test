@@ -57,8 +57,8 @@ p {
 }
 
 </style>
-<script src="path/to/script1.js" async></script>
-<script src="path/to/script2.js" async></script>  
+<!-- script src="script1.js" async></script -->
+<!-- script src="script2.js" async></script -->  
 </head>
 
 <body>
