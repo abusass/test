@@ -57,7 +57,7 @@ p {
 }
 
 </style>
-<!-- script src="script1.js" async></script -->
+<script src="script1.js" async></script>
 <!-- script src="script2.js" async></script -->  
 </head>
 
@@ -110,8 +110,6 @@ p {
 <p>Count numbers: <output id="result"></output></p>
 <button onclick="startWorker()">Start Worker</button> 
 <button onclick="stopWorker()">Stop Worker</button>
-
-<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
 </div>
   
 </body>
