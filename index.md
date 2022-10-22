@@ -58,6 +58,7 @@ p {
 
 </style>
   <script src="script1.js" async></script>
+  <script src="script3.js" async></script>
 </head>
 
 <body>
@@ -104,6 +105,11 @@ p {
     Your browser does not support HTML video.
   </video>
 </div> 
-  
+
+<div>
+  <p>Count numbers: <output id="result"></output></p>
+  <button onclick="startWorker()">Start Worker</button> 
+  <button onclick="stopWorker()">Stop Worker</button>
+</div>
 </body>
 </html>
