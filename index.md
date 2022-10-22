@@ -58,6 +58,7 @@ p {
 
 </style>
   <script src="script1.js" async></script>
+  <script src="script2.js" async></script>
   <script src="script3.js" async></script>
 </head>
 
