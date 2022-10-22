@@ -63,8 +63,10 @@ p {
 
 <body>
 
-<h2>Media Queries</h2>
-<p>Resize the browser window.</p>
+<h2>Hello</h2>
+<ul>
+  <li><a href="file1.html">FILE1</a></li>
+</ul>
 
 <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
 
